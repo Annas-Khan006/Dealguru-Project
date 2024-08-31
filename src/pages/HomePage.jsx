@@ -62,7 +62,7 @@ function HomePage() {
         <Dealcard />
         <Dealcard />
         <Dealcard />
-        <Dealcard />
+        {/* <Dealcard /> */}
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
