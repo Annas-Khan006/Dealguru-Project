@@ -56,7 +56,7 @@ function HomePage() {
         </div> */}
 
         {/* <Filter /> */}
-        {/* <Responsive /> */}
+        <Responsive />
         {/* <Dealcard /> */}
         {/* <Dealcard /> */}
         {/* <Dealcard /> */}
