@@ -15,6 +15,7 @@ import OpenPageButton5 from "./OpenPageButton.5";
 import Installor from "./installor";
 import Onclickpage from "../components/onclickpage";
 import Copy from "../components/copy";
+import Dealcard from "../components/dealcard";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -55,8 +56,13 @@ function HomePage() {
         </div> */}
 
         {/* <Filter /> */}
-        {/* <Filter /> */}
-        <Responsive />
+        {/* <Responsive /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
@@ -68,7 +74,7 @@ function HomePage() {
         {/* <Installor /> */}
         {/* <Onclickpage /> */}
       </div>
-      <Foot />
+      {/* <Foot /> */}
       {/* <Copy /> */}
     </>
   );
