@@ -5,7 +5,7 @@ const Responsive = () => {
   return (
     <div>
       <Smallcard />
-      <div className="grid grid-cols-7 gap-4 py-4 px-4">
+      <div className="grid grid-cols-7 gap-4 pt-4 px-4">
         <div className="bg-white h-[300px] w-full rounded-lg col-span-7 xl:col-span-5 hidden md:block px-4">
           <div className="flex">
             <div className="flex-shrink-0">

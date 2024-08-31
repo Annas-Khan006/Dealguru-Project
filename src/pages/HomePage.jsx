@@ -74,7 +74,7 @@ function HomePage() {
         {/* <Installor /> */}
         {/* <Onclickpage /> */}
       </div>
-      {/* <Foot /> */}
+      <Foot />
       {/* <Copy /> */}
     </>
   );
