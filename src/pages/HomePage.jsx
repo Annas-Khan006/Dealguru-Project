@@ -57,8 +57,9 @@ function HomePage() {
         </div> */}
 
         {/* <Filter /> */}
-        {/* <Responsive /> */}
-        <Responsive2 />
+        <Responsive />
+        {/* <Responsive2 /> */}
+        {/* this is test */}
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
