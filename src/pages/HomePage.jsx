@@ -23,7 +23,7 @@ function HomePage() {
     <>
       <div className="wrapper bg-gray-100">
         <Top />
-        <div className="py-4 px-4">
+        {/* <div className="py-4 px-4">
           <div className="border rounded-md bg-white px-4 sm:px-8 w-full max-w-[730px] mx-auto flex-col block md:hidden">
             <div className="flex flex-col sm:flex-row items-start gap-4">
               <img src="/src/assets/handhake.png" alt="" className="pt-5" />
@@ -52,20 +52,20 @@ function HomePage() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <Filter /> */}
         <Responsive />
-        <Profile />
-        <OpenPageButton2 />
-        <Setting2 />
-        <Openpagebutton3 />
-        <Setting3 />
-        <OpenPageButton4 />
-        <Setting4 />
-        <OpenPageButton5 />
-        <Installor />
-        <Onclickpage />
+        {/* <Profile /> */}
+        {/* <OpenPageButton2 /> */}
+        {/* <Setting2 /> */}
+        {/* <Openpagebutton3 /> */}
+        {/* <Setting3 /> */}
+        {/* <OpenPageButton4 /> */}
+        {/* <Setting4 /> */}
+        {/* <OpenPageButton5 /> */}
+        {/* <Installor /> */}
+        {/* <Onclickpage /> */}
       </div>
       <Foot />
       {/* <Copy /> */}
