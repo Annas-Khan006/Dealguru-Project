@@ -16,6 +16,7 @@ import Installor from "./installor";
 import Onclickpage from "../components/onclickpage";
 import Copy from "../components/copy";
 import Dealcard from "../components/dealcard";
+import Middle from "../components/middle";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -56,13 +57,14 @@ function HomePage() {
         </div> */}
 
         {/* <Filter /> */}
+        {/* <Middle /> */}
         <Responsive />
         <Dealcard />
         <Dealcard />
         <Dealcard />
         <Dealcard />
         <Dealcard />
-        {/* <Dealcard /> */}
+        <Dealcard />
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
