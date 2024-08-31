@@ -2,7 +2,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
 import Profile from './pages/Profile';
 import OpenPageButton2 from './pages/OpenPageButton.2';
 import OpenPageButton3 from './pages/OpenPageButton.3'; 
@@ -16,7 +15,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/openpagebutton2" element={<OpenPageButton2 />} />
         <Route path="/openpagebutton3" element={<OpenPageButton3 />} />
