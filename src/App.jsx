@@ -13,20 +13,19 @@ import Slider from 'react-slick';
 
 function App() {
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" element={<HomePage />} />
-    //     <Route path="/about" element={<AboutPage />} />
-    //     <Route path="/profile" element={<Profile />} />
-    //     <Route path="/openpagebutton2" element={<OpenPageButton2 />} />
-    //     <Route path="/openpagebutton3" element={<OpenPageButton3 />} />
-    //     <Route path="/openpagebutton4" element={<OpenPageButton4 />} />
-    //     <Route path="/openpagebutton5" element={<OpenPageButton5 />} />
-    //     <Route path="/slide" element={<Slider />} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/openpagebutton2" element={<OpenPageButton2 />} />
+        <Route path="/openpagebutton3" element={<OpenPageButton3 />} />
+        <Route path="/openpagebutton4" element={<OpenPageButton4 />} />
+        <Route path="/openpagebutton5" element={<OpenPageButton5 />} />
+        <Route path="/slide" element={<Slider />} />
         
-    //   </Routes>
-    // </Router>
-    <h1>Testing my app on netlify</h1>
+      </Routes>
+    </Router>
   );
 }
 

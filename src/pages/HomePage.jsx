@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Two from "../components/two";
 import Filter from "../components/filter";
 import Responsive from "../components/responsive";
 import Top from "../components/top";
@@ -16,7 +15,6 @@ import OpenPageButton5 from "./OpenPageButton.5";
 import Installor from "./installor";
 import Onclickpage from "../components/onclickpage";
 import Copy from "../components/copy";
-import Responsive2 from "../components/responsive-2";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -25,7 +23,7 @@ function HomePage() {
     <>
       <div className="wrapper bg-gray-100">
         <Top />
-        {/* <div className="py-4 px-4">
+        <div className="py-4 px-4">
           <div className="border rounded-md bg-white px-4 sm:px-8 w-full max-w-[730px] mx-auto flex-col block md:hidden">
             <div className="flex flex-col sm:flex-row items-start gap-4">
               <img src="/src/assets/handhake.png" alt="" className="pt-5" />
@@ -54,23 +52,20 @@ function HomePage() {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* <Filter /> */}
         <Responsive />
-        {/* <Responsive2 /> */}
-        {/* this is test */}
-        {/* <Profile /> */}
-        {/* <OpenPageButton2 /> */}
-        {/* <Setting2 /> */}
-        {/* <Openpagebutton3 /> */}
-        {/* <Setting3 /> */}
-        {/* <OpenPageButton4 /> */}
-        {/* <Setting4 /> */}
-        {/* <OpenPageButton5 /> */}
-        {/* <Installor /> */}
-        {/* <Onclickpage /> */}
-        {/* <Two /> */}
+        <Profile />
+        <OpenPageButton2 />
+        <Setting2 />
+        <Openpagebutton3 />
+        <Setting3 />
+        <OpenPageButton4 />
+        <Setting4 />
+        <OpenPageButton5 />
+        <Installor />
+        <Onclickpage />
       </div>
       <Foot />
       {/* <Copy /> */}
