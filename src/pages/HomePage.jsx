@@ -22,7 +22,7 @@ function HomePage() {
 
   return (
     <>
-      <div className="wrapper bg-gray-100">
+      <div className="bg-gray-100">
         <Top />
         {/* <div className="py-4 px-4">
           <div className="border rounded-md bg-white px-4 sm:px-8 w-full max-w-[730px] mx-auto flex-col block md:hidden">
@@ -57,12 +57,12 @@ function HomePage() {
 
         {/* <Filter /> */}
         <Responsive />
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
