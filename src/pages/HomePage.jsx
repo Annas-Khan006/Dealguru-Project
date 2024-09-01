@@ -57,17 +57,17 @@ function HomePage() {
         </div> */}
 
         {/* <Filter /> */}
-        {/* <Middle /> */}
-        {/* <Responsive /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
+        <Middle />
+        <Responsive />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
+        <Dealcard />
         {/* <Profile /> */}
-        <OpenPageButton2 />
-        <Setting2 />
+        {/* <OpenPageButton2 /> */}
+        {/* <Setting2 /> */}
         {/* <Openpagebutton3 /> */}
         {/* <Setting3 /> */}
         {/* <OpenPageButton4 /> */}
