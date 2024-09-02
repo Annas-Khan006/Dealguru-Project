@@ -58,13 +58,13 @@ function HomePage() {
 
         {/* <Filter /> */}
         <Middle />
-        <Responsive />
-        <Dealcard />
-        <Dealcard />
-        <Dealcard />
-        <Dealcard />
-        <Dealcard />
-        <Dealcard />
+        {/* <Responsive /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
+        {/* <Dealcard /> */}
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
