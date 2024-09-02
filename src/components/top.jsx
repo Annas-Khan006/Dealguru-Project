@@ -8,14 +8,14 @@ const Top = () => {
           DealGuru - Just nu 12590 deals och rabatter
         </h2>
       </div>
-      <div class="bg-white flex items-center justify-between px-4 py-4">
+      <div class="bg-white flex items-center justify-between px-2 py-4">
         <div class="flex items-center">
           <div className="md:block hidden">
             <div class="rounded-md border h-[35px] w-[35px] border-gray-400 flex items-center justify-center">
               <img src="/src/assets/hamline.svg" alt="Hameline" />
             </div>
           </div>
-          <div class="ml-2">
+          <div class="ml-4">
             <img
               class="max-w-[160px] h-full"
               src="/src/assets/logo.jpg"
