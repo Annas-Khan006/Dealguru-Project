@@ -64,19 +64,19 @@ function HomePage() {
         <Smallcard />
         <Smallcard />
         <Smallcard />
-        {/* <Profile /> */}
-        {/* <OpenPageButton2 /> */}
-        {/* <Setting2 /> */}
-        {/* <Openpagebutton3 /> */}
-        {/* <Setting3 /> */}
-        {/* <OpenPageButton4 /> */}
-        {/* <Setting4 /> */}
-        {/* <OpenPageButton5 /> */}
-        {/* <Installor /> */}
-        {/* <Onclickpage /> */}
-      </div>
       <Foot />
       <Copy />
+        <Profile />
+        <OpenPageButton2 />
+        <Setting2 />
+        <Openpagebutton3 />
+        <Setting3 />
+        <OpenPageButton4 />
+        <Setting4 />
+        <OpenPageButton5 />
+        <Installor />
+      </div>
+        <Onclickpage />
     </>
   );
 }

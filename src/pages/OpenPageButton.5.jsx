@@ -1,8 +1,13 @@
 import React from "react";
+import Top from "../components/top";
+import Foot from "../components/foot";
+import Copy from "../components/copy";
 
 const OpenPageButton5 = () => {
   return (
-    <div className="hidden md:block">
+    <div>
+      <Top />
+      <div className="hidden md:block">
   <div className="flex px-4 pt-4 bg-gray-200">
     <div className="flex flex-col w-[22%]">
       <a href="#">
@@ -130,6 +135,9 @@ const OpenPageButton5 = () => {
     </div>
   </div>
 </div>
+      <Foot />
+      <Copy />
+    </div>
   );
 };
 
