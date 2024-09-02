@@ -1,6 +1,7 @@
 import React from "react";
 import Top from "./top";
 import Foot from "./foot";
+import Copy from "./copy";
 
 const Profile = () => {
   return (
@@ -285,6 +286,7 @@ const Profile = () => {
         </div>
       </div>
       <Foot />
+      <Copy />
     </div>
   );
 };
