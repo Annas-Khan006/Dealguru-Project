@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Filter from "../components/filter";
 import Responsive from "../components/responsive";
 import Top from "../components/top";
 import Profile from "../components/profile";
@@ -56,7 +55,6 @@ function HomePage() {
           </div>
         </div> */}
 
-        {/* <Filter /> */}
         <Middle />
         {/* <Responsive /> */}
         {/* <Dealcard /> */}
