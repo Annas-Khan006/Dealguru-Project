@@ -20,7 +20,7 @@ const Foot = () => {
                 />
               </span>
             </a>
-            <p className="mt-6 md:ml-2 max-w-prose font-sans text-sm font-normal leading-6 text-[#637381] pr-4">
+            <p className="mt-6 md:ml-2 max-w-prose text-sm font-normal leading-6 text-[#637381] pr-4">
               Dealguru.se är ett community för dig som älskar bra erbjudanden
               och deals. Tillsammans hjälper vi varandra att göra bättre deals
               genom att hitta och dela de bästa erbjudandena genom att dela dem
@@ -113,8 +113,8 @@ const Foot = () => {
         </div>
         <div class=" rounded-lg">
           <div className="second-col">
-            <h4 className="text-heading text-sm font-bold mb-4">Deal Guru</h4>
-            <ul className="text-xs text-body flex flex-col space-y-3">
+            <h4 className="text-heading text-base font-bold mb-4">Deal Guru</h4>
+            <ul className="text-sm flex flex-col space-y-3">
               <li>Deals</li>
               <li>Blogg</li>
               <li>Diskussioner</li>
@@ -122,8 +122,10 @@ const Foot = () => {
               <li>Kontakta oss</li>
               <li>DealGuru in media</li>
             </ul>
-            <h4 class="text-heading text-sm font-bold mb-4 mt-5">Community</h4>
-            <ul class="text-xs text-body flex flex-col space-y-3">
+            <h4 class="text-heading text-base font-bold mb-4 mt-5">
+              Community
+            </h4>
+            <ul class="text-sm flex flex-col space-y-3">
               <li>Kom igång</li>
               <li>FAQ</li>
               <li>Medlemsvillkor</li>
@@ -132,8 +134,8 @@ const Foot = () => {
         </div>
         <div class=" rounded-lg">
           <div className="third-col">
-            <h4 class="text-heading text-sm font-bold mb-4">Kategorier</h4>
-            <ul class="text-xs text-body flex flex-col space-y-3">
+            <h4 class="text-heading text-base font-bold mb-4">Kategorier</h4>
+            <ul class="text-sm flex flex-col space-y-3">
               <li>Gratis saker</li>
               <li>Presenter</li>
               <li>Rabattkoder</li>
@@ -149,8 +151,8 @@ const Foot = () => {
         </div>
         <div class=" rounded-lg">
           <div className="fourth-col">
-            <h4 class="text-heading text-sm font-bold mb-4">Varumärken</h4>
-            <ul class="text-xs text-body flex flex-col space-y-3">
+            <h4 class="text-heading text-base font-bold mb-4">Varumärken</h4>
+            <ul class="text-sm flex flex-col space-y-3">
               <li>Yasuragi</li>
               <li>Glowen</li>
               <li>Matsmart</li>
@@ -166,8 +168,8 @@ const Foot = () => {
         </div>
         <div class=" rounded-lg">
           <div className="fifth-col">
-            <h4 class="text-heading text-sm font-bold mb-4">Butiker</h4>
-            <ul class="text-xs text-body flex flex-col space-y-3">
+            <h4 class="text-heading text-base font-bold mb-4">Butiker</h4>
+            <ul class="text-sm flex flex-col space-y-3">
               <li>Swissôtel Hotels & Resorts</li>
               <li>Mövenpick Hotels & Resorts</li>
               <li>Sofitel Hotels & Resorts</li>
