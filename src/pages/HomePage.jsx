@@ -16,6 +16,7 @@ import Onclickpage from "../components/onclickpage";
 import Copy from "../components/copy";
 import Dealcard from "../components/dealcard";
 import Middle from "../components/middle";
+import Smallcard from "../components/smallcard";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -24,7 +25,7 @@ function HomePage() {
     <>
       <div className="bg-gray-100">
         <Top />
-        {/* <div className="py-4 px-4">
+        <div className="px-4 pt-2">
           <div className="border rounded-md bg-white px-4 sm:px-8 w-full max-w-[730px] mx-auto flex-col block md:hidden">
             <div className="flex flex-col sm:flex-row items-start gap-4">
               <img src="/src/assets/handhake.png" alt="" className="pt-5" />
@@ -53,16 +54,16 @@ function HomePage() {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <Middle />
-        {/* <Responsive /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
-        {/* <Dealcard /> */}
+        <Responsive />
+        <Smallcard />
+        <Smallcard />
+        <Smallcard />
+        <Smallcard />
+        <Smallcard />
+        <Smallcard />
         {/* <Profile /> */}
         {/* <OpenPageButton2 /> */}
         {/* <Setting2 /> */}
@@ -75,7 +76,7 @@ function HomePage() {
         {/* <Onclickpage /> */}
       </div>
       <Foot />
-      {/* <Copy /> */}
+      <Copy />
     </>
   );
 }

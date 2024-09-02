@@ -4,8 +4,10 @@ import Smallcard from "./smallcard";
 const Dealcard = () => {
   return (
     <div>
+      <div className="block md:hidden">
       <Smallcard />
-      <div className="grid grid-cols-7 gap-4 pb-4 px-4">
+      </div>
+      <div className="py-4">
         <div className="bg-white h-[300px] w-full rounded-lg col-span-7 xl:col-span-5 hidden md:block px-4">
           <div className="flex">
             <div className="flex-shrink-0">
@@ -18,7 +20,7 @@ const Dealcard = () => {
               </a>
             </div>
             <div className="pl-[20px] pt-5 w-full">
-              <div className="flex flex-grow">
+              <div className="flex flex-grow items-start">
                 <div className="flex-grow">
                   <a href="#">
                     <h1 className="font-bold text-black text-xl">
@@ -26,14 +28,34 @@ const Dealcard = () => {
                     </h1>
                   </a>
                 </div>
-                <div className="ml-auto flex items-center text-nowrap">
-                  <span className="font-semibold text-black text-base pt-1">
+                <div className="flex flex-col ml-auto items-end">
+                  <span className="font-semibold text-black text-base">
                     Bra deal? Rösta här:
                   </span>
+                  <div className="mt-2 flex gap-1">
+                    <div className="flex h-[40px] w-[45px] items-center justify-center rounded-md border border-[#0367DD] bg-[#fff]">
+                      <span className="font-semibold text-black">80</span>
+                    </div>
+                    <a href="#">
+                      <div className="flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
+                        <img src="/src/assets/heart.svg" alt="Heart" />
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div className="flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
+                        <img src="/src/assets/thumb.svg" alt="Thumb" />
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div className="flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
+                        <img src="/src/assets/dislike.svg" alt="Dislike" />
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
 
-              <div className="pt-4 flex">
+              <div className="flex pt-3">
                 <a href="#">
                   <img
                     className="rounded-full w-[30px]"
@@ -51,33 +73,13 @@ const Dealcard = () => {
                     Upplagd för 21 timmar sedan
                   </h2>
                 </a>
-                <div className="ml-auto flex gap-1">
-                  <div className="mb-2 flex h-[40px] w-[45px] items-center justify-center rounded-md border border-[#0367DD] bg-[#fff]">
-                    <span className="font-semibold text-black">80</span>
-                  </div>
-                  <a href="#">
-                    <div className="mb-2 flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
-                      <img src="/src/assets/heart.svg" alt="Heart" />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="mb-2 flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
-                      <img src="/src/assets/thumb.svg" alt="Thumb" />
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div className="mb-2 flex h-[40px] w-[45px] items-center justify-center rounded-md border bg-gray-200">
-                      <img src="/src/assets/dislike.svg" alt="Dislike" />
-                    </div>
-                  </a>
-                </div>
               </div>
 
-              <div>
+              <div className="pt-3">
                 <h3 className="font-bold text-black">Var med och tävla! 🥰</h3>
-                <h3 className="font-bold text-[#0067e1] pt-1">Tävlingar</h3>
+                <h3 className="font-bold text-[#0067e1] pt-3">Tävlingar</h3>
               </div>
-              <div className="pt-8 flex">
+              <div className="pt-10 flex">
                 <a href="#">
                   <div className="flex h-[40px] w-[60px] items-center justify-center gap-3 rounded-md bg-gray-100">
                     <img

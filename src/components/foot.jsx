@@ -1,5 +1,4 @@
 import React from "react";
-import Copy from "./copy";
 
 const Foot = () => {
   return (
@@ -184,7 +183,6 @@ const Foot = () => {
           </div>
         </div>
       </div>
-      <Copy />
     </div>
   );
 };
