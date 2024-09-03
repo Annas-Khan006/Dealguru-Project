@@ -83,7 +83,13 @@ const Responsive = () => {
                     </div>
                   </div>
                 </div>
-
+                <div className="flex gap-2">
+                  <h1 className="text-[#0067e1] font-bold text-lg">990 kr</h1>
+                  <h1 className="text-[#B1B9C0] decoration-2 line-through font-bold text-lg">1990 kr</h1>
+                  <div className="bg-[#0067e1] w-[50px] h-[30px] text-white font-bold rounded-md text-center px-1 py-1">50%</div>
+                  <div className="border-l border-gray-400"></div>
+                  <h1 className="font-bold pt-1 text-black">Tretti</h1>
+                </div>
                 <div className="flex pt-3">
                   <a href="#">
                     <img
@@ -108,9 +114,9 @@ const Responsive = () => {
                   <h3 className="font-bold text-black">
                     Var med och tävla! 🥰
                   </h3>
-                  <h3 className="font-bold text-[#0067e1] pt-3">Tävlingar</h3>
+                  <h3 className="font-bold text-[#0067e1] pt-2">Tävlingar</h3>
                 </div>
-                <div className="pt-10 flex">
+                <div className="pt-4 flex">
                   <a href="#">
                     <div className="flex h-[40px] w-[60px] items-center justify-center gap-3 rounded-md bg-gray-100">
                       <img

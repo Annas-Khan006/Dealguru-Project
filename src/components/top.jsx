@@ -8,16 +8,16 @@ const Top = () => {
           DealGuru - Just nu 12590 deals och rabatter
         </h2>
       </div>
-      <div class="bg-white flex items-center justify-between px-2 py-4">
+      <div class="bg-white flex items-center justify-between px-8 py-4">
         <div class="flex items-center">
           <div className="md:block hidden">
             <div class="rounded-md border h-[35px] w-[35px] border-gray-400 flex items-center justify-center">
               <img src="/src/assets/hamline.svg" alt="Hameline" />
             </div>
           </div>
-          <div class="ml-4">
+          <div class="ml-1">
             <img
-              class="max-w-[160px] h-full"
+              class="w-[120px] sm:w-[160px] h-full"
               src="/src/assets/logo.jpg"
               alt="Logo"
             />
@@ -38,13 +38,13 @@ const Top = () => {
         <div class="flex items-center gap-2">
           <a
             href="#"
-            class="flex h-[40px] items-center justify-center text-nowrap rounded-md bg-[#0067e1] px-5 text-sm font-bold text-white"
+            class="flex h-[40px] w-[100px] sm:w-full sm:h-[40px] items-center justify-center text-nowrap rounded-md bg-[#0067e1] px-5 text-sm font-bold text-white"
           >
             Gå med gratis
           </a>
           <a
             href="#"
-            class="flex h-[40px] items-center justify-center text-nowrap rounded-md border border-[#0067e1] px-5 text-sm font-bold text-[#0067e1]"
+            class="flex h-[40px] w-[100px] sm:w-full sm:h-[40px] items-center justify-center text-nowrap rounded-md border border-[#0067e1] px-5 text-sm font-bold text-[#0067e1]"
           >
             Logga in
           </a>
