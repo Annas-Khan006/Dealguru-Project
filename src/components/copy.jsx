@@ -32,7 +32,7 @@ const Copy = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center h-full text-center">
+      <div className="flex flex-col items-center justify-center h-full text-center pb-4">
         <p className="text-sm font-normal block xs:hidden">
           Copyright 2023-2024 DealGuru AB
         </p>

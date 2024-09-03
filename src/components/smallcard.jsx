@@ -2,7 +2,7 @@ import React from "react";
 
 const Smallcard = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 py-4">
       <div className="block md:hidden w-full h-full rounded-lg bg-white">
         <div className="flex items-start">
           <img
@@ -41,7 +41,13 @@ const Smallcard = () => {
             </div>
           </div>
         </div>
-
+        <div className="flex gap-2 px-4">
+                  <h1 className="text-[#0067e1] font-bold text-lg">990 kr</h1>
+                  <h1 className="text-[#B1B9C0] decoration-2 line-through font-bold text-lg">1990 kr</h1>
+                  <div className="bg-[#0067e1] w-[50px] h-[30px] text-white font-bold rounded-md text-center px-1 py-1">50%</div>
+                  <div className="border-l border-gray-400"></div>
+                  <h1 className="font-bold pt-1 text-black">Tretti</h1>
+                </div>
         <div className="px-4">
           <a href="#">
             <h3 className="font-bold text-sm text-[#0067e1] pt-4">Tävlingar</h3>

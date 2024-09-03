@@ -14,9 +14,9 @@ import OpenPageButton5 from "./OpenPageButton.5";
 import Installor from "./installor";
 import Onclickpage from "../components/onclickpage";
 import Copy from "../components/copy";
-import Dealcard from "../components/dealcard";
 import Middle from "../components/middle";
 import Smallcard from "../components/smallcard";
+import Dealclickpage from "../components/dealclickpage";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -56,27 +56,28 @@ function HomePage() {
           </div>
         </div>
 
-        <Middle />
-        <Responsive />
-        <Smallcard />
-        <Smallcard />
-        <Smallcard />
-        <Smallcard />
-        <Smallcard />
-        <Smallcard />
+        {/* <Middle /> */}
+        {/* <Responsive /> */}
+        {/* <Smallcard /> */}
+        {/* <Smallcard /> */}
+        {/* <Smallcard /> */}
+        {/* <Smallcard /> */}
+        {/* <Smallcard /> */}
+        {/* <Smallcard /> */}
+        {/* <Profile /> */}
+        {/* <OpenPageButton2 /> */}
+        {/* <Setting2 /> */}
+        {/* <Openpagebutton3 /> */}
+        {/* <Setting3 /> */}
+        {/* <OpenPageButton4 /> */}
+        {/* <Setting4 /> */}
+        {/* <OpenPageButton5 /> */}
+        {/* <Installor /> */}
+        <Onclickpage />
+        <Dealclickpage />
       <Foot />
       <Copy />
-        <Profile />
-        <OpenPageButton2 />
-        <Setting2 />
-        <Openpagebutton3 />
-        <Setting3 />
-        <OpenPageButton4 />
-        <Setting4 />
-        <OpenPageButton5 />
-        <Installor />
       </div>
-        <Onclickpage />
     </>
   );
 }
